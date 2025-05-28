@@ -1,0 +1,190 @@
+.cart {
+    height: 400px;
+    background-image: url(img/cart/cart_top.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cart__title {
+    color: $colorText;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 127px;
+}
+
+.section-cart {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    padding-top: 64px;
+}
+
+.product {
+    grid-column: span 8;
+
+    &__name-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 14px;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &__item-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 25px;
+        padding-bottom: 32px;
+        border-top: 0.5px solid rgb(202, 205, 216);
+    }
+
+    &__item {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__info {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        width: 276px;
+    }
+
+    &__info-title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000;
+    }
+
+    &__info-desc {
+        color: rgb(136, 136, 136);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    &__info-price {
+        color: rgb(5, 5, 5);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+    }
+
+    &__link {
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 210%;
+        letter-spacing: 0px;
+        text-decoration-line: underline;
+        padding-right: 30px;
+    }
+
+    &__num {
+        border-radius: 6px;
+        background: rgb(247, 246, 246);
+        width: 71px;
+        height: 51px;
+        border: indianred;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 11px 24px 12px 0;
+        font-family: inherit;
+        font-weight: 600;
+    }
+
+    &__action {
+        margin-top: 25px;
+    }
+
+    &__action-btn {
+        box-sizing: border-box;
+        border: 1px solid rgb(4, 4, 4);
+        border-radius: 20px;
+        width: 200px;
+        height: 37px;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        font-family: inherit;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        background-color: transparent;
+    }
+}
+
+.order {
+    border-radius: 20px;
+    background: rgb(247, 246, 246);
+    grid-column: span 4;
+    padding: 0 45px;
+    height: 556px;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;
+        padding-top: 42px;
+        padding-bottom: 35px;
+    }
+
+    &__input {
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: left;
+        border: indianred;
+        border-bottom: 1px solid rgb(202, 205, 216);
+        margin-bottom: 41px;
+        background-color: transparent;
+    }
+
+    &__price {
+        padding-bottom: 18px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    &__btn {
+        box-sizing: border-box;
+        border: 1px solid rgb(4, 4, 4);
+        border-radius: 20px;
+        height: 41px;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        background-color: transparent;
+        font-family: inherit;
+    }
+}

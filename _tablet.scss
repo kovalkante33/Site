@@ -1,0 +1,24 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 786px / 2);
+        padding-right: calc(50% - 786px / 2);
+    }
+
+    .content {
+        column-gap: 29px;
+        row-gap: 38px;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+
+    .section-cart {
+        grid-template-columns: auto;
+    }
+
+    .btn__resume {
+        background: #000;
+        color: #fff;
+    }
+}
