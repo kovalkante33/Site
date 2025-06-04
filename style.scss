@@ -229,7 +229,7 @@ ul {
 }
 
 .article {
-    width: calc(($wightSite - 66px) / 3);
+    width: calc(($wightSite - 66px) 3);
     display: flex;
     flex-direction: column;
     gap: 10px;
